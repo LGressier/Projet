@@ -3,7 +3,7 @@ import pygame
 from pygame.locals import *
 
 pygame.init()
-# Dimension de l'écran (1300,650)
+### Dimension de l'écran (1300,650)
 fenetre = pygame.display.set_mode((1300,650))
 fond = pygame.image.load("background.jpg").convert()
 fenetre.blit(fond,(0,0))
